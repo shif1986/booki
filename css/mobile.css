@@ -1,0 +1,205 @@
+@media only screen and (max-width: 767px) {
+  body {
+   
+    gap: 30px;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header section {
+    padding: 0 20px;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  /******* Navbar *******/
+  .bar-recherche h1 {
+    font-size: 22px;
+  }
+
+  .bar-recherche p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  nav {
+    display: block;
+  }
+  nav a {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 15px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  nav ul li:last-child {
+    padding-left: 0;
+  }
+
+  nav ul li:hover {
+    border-bottom: 2px solid #0065fc;
+    cursor: pointer;
+  }
+
+  nav ul li:hover a {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  /*** Bar-recherche ***/
+  .map {
+    margin-top: 35px;
+  }
+
+  .map-mark {
+    width: 50px;
+  }
+
+  input[type="search"] {
+    border: none;
+  }
+
+  input[type="submit"] {
+    display: none;
+  }
+
+  .search-icon {
+    border-radius: 15px;
+    background-color: #0864fc;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /******* Bar-filtre *******/
+  .bar-filters .filter h2 {
+    font-size: 14px;
+  }
+
+  .bar-filters .filter {
+    width: 49%;
+  }
+
+  .filter-1 {
+    margin-top: 35px;
+  }
+
+  .filter-1 h2 {
+    font-size: 18px;
+  }
+
+  .bar-filters {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: initial;
+  }
+
+  .search-result p {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 16px;
+  }
+
+  .filter-container {
+    display: block;
+  }
+
+  /******* Hébérgement Marseille *******/
+  .conteneur-hebergement {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .list-articles-hebergements {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conteneur-title-m {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 0%;
+  }
+
+  .afficher-plus h2 {
+    font-size: 18px;
+  }
+
+  .card-img {
+    padding: 6px;
+  }
+
+  /******* Hébérgement Populaire *******/
+  .conteneur-populaire {
+    border-radius: 0;
+    background-color: #f2f2f2;
+    padding: 30px 20px;
+  }
+
+  .card_title_p {
+    justify-content: space-around;
+  }
+
+  .card_title_p i {
+    padding-top: 50px;
+    font-size: 12px;
+  }
+
+  /******* Activites *******/
+  .list-articles-activites {
+    flex-direction: column;
+  }
+
+  .title-activites {
+    padding: 0%;
+  }
+
+  .card-activites img {
+    height: 141px;
+  }
+
+  .card-populaire {
+    padding: 6px;
+  }
+
+  /******* Footer *******/
+
+  footer {
+    flex-direction: column;
+    padding: 15px 25px;
+    gap: 35px;
+    color: #000000;
+  }
+  footer ul {
+    padding-bottom: 50px;
+  }
+}
